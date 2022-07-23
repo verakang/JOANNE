@@ -136,7 +136,6 @@ table {
 
 * {
     box-sizing: border-box;
-    /* outline: 1px solid pink; */
 }
 
 body {
@@ -260,7 +259,7 @@ img {
 .about-experience:before {
     content: "";
     display: block;
-    width: 384px;
+    max-width: 384px;
     height: 1px;
     background-color: #000;
     margin-top: 24px;
@@ -268,7 +267,7 @@ img {
 }
 
 .about-experience {
-    width: 384px;
+    max-width: 384px;
 }
 
 .experience-item:before {
@@ -276,6 +275,7 @@ img {
     display: inline-block;
     width: 22px;
     height: 22px;
+    vertical-align: -3px;
     border-radius: 50%;
     background-color: #891818;
     margin-right: 16px;
