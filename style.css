@@ -186,6 +186,10 @@ img {
     margin-bottom: 32px;
 }
 
+.mb-40 {
+    margin-bottom: 40px;
+}
+
 .mb-68 {
     margin-bottom: 68px;
 }
@@ -210,20 +214,23 @@ img {
 .container {
     max-width: 1200px;
     margin: 0 auto;
+}
+
+.banner .container {
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.banner .container {
-    height: 100vh;
+.banner-title {
+    margin-bottom: 32px;
 }
 
-.banner-title {
+.banner-title span {
     font-size: 80px;
     line-height: 106px;
-    margin-bottom: 32px;
 }
 
 .banner-content p {
@@ -244,8 +251,6 @@ img {
 }
 
 .about {
-    display: flex;
-    flex-direction: column;
     text-align: center;
     padding: 56px 0;
 }
@@ -270,6 +275,7 @@ img {
 
 .about-experience {
     max-width: 384px;
+    margin: 0 auto;
 }
 
 .experience-item:before {
@@ -296,15 +302,15 @@ img {
 }
 
 .imgs {
-    width: 100%;
     display: flex;
-    justify-content: space-between;
-    margin-top: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .works {
     padding-top: 56px;
     padding-bottom: 144px;
+    text-align: center;
 }
 
 .works ul {
@@ -323,6 +329,7 @@ img {
 }
 
 .contact {
+    text-align: center;
     background-color: #000;
     color: #fff;
     padding: 64px 0;
